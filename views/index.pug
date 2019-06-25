@@ -12,6 +12,7 @@ html
             a(href=`${article.link}` target='_blank')= `${article.title}`
           else
             a(href=`${article.link}` target='_blank')= `${article.link}`
+        p()= `${article.rest}`
 
     h3 Latest YouTube Videos
     ul
